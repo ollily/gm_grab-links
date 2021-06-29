@@ -4,14 +4,15 @@
 :base_url: https://github.com
 :base_raw_url: https://raw.githubusercontent.com
 :base_shields_url: https://img.shields.io/github
+:base_sonar_url: https://sonarcloud.io
 // project settings
 :gh_user: ollily
-:gh_user_link: link:{base_url}/{gh_user}
 :gh_org: The-oGlow
-:gh_org_link: link:{base_url}/{gh_org}
 :gh_module: gm_grab-links
-:gh_module_link: link:{base_url}/{gh_user}/{gh_module}
 :gh_group: com.glowa-net.coding.gmonkey
+:gh_user_link: link:{base_url}/{gh_user}
+:gh_org_link: link:{base_url}/{gh_org}
+:gh_module_link: link:{base_url}/{gh_user}/{gh_module}
 // project id's
 :gh_id: {gh_user}/{gh_module}
 :gh_org_id: {gh_org}/{gh_module}
@@ -19,22 +20,24 @@
 :gh_key: {gh_user}_{gh_module}
 // author settings
 :author: {gh_user}
-:author_link: link:{gh_user_link}[{author}]
+:author_link: {gh_user_link}[{author}]
 :cright: (c) 2021 by {author}
 // service links
-:link_back: link:README.adoc[image:https://img.shields.io/badge/%3C%3D%3D%20GO-Back-lightgrey[Go Back]]
+:back_link: link:README.adoc[image:https://img.shields.io/badge/%3C%3D%3D%20GO-Back-lightgrey[Go Back]]
 :sonar_url: logo=sonarcloud&server=https%3A%2F%2Fsonarcloud.io
 // link settings
 :raw_link: link:{base_raw_url}/{gh_id}
 :raw_file: master/gm_grab-links.user.js
 :release_link: link:{base_url}/{gh_id}/releases/latest
-:release_image_link: {base_shields_url}/v/release/{gh_id}?include_prereleases&{img_style}
+:release_image_url: {base_shields_url}/v/release/{gh_id}?include_prereleases&{img_style}[Latest Version]
 :license_link: link:LICENSE
-:license_image_link: {base_shields_url}/license/{gh_id}?{img_style}
+:license_image_url: {base_shields_url}/license/{gh_id}?{img_style}[Software License]
+:sonar_qg_link: link:{base_sonar_url}/dashboard?id={gh_key}
+:sonar_qg_image_url: {base_sonar_url}/api/project_badges/quality_gate?project={gh_key}[Quality Gate]
 
 = {gh_module}
 
-{release_link}[image:{release_image_link}[Latest Version]] {license_link}[image:{license_image_link}[Software License]]
+{release_link}[image:{release_image_url}] {license_link}[image:{license_image_url}] {sonar_qg_link}[image:{sonar_qg_image_url}]
 
 == Description
 
