@@ -10,37 +10,44 @@
 :gh_id_org: {gh_org}/{gh_module}
 :gh_gav: {gh_group}/{gh_module}
 :gh_key: {gh_user}_{gh_module}
-:author: https://github.com/ollily[{gh_user}({gh_org})]
-:cright: (c)2021 by {author}
+:author: {gh_user}
+:author_link: link:/{gh_user}[{author}]
+:cright: (c) 2021 by {author}
 :img_style: &style=plastic
 :link_back: link:README.adoc[image:https://img.shields.io/badge/%3C%3D%3D%20GO-Back-lightgrey[Go Back]]
 :raw_url: https://raw.githubusercontent.com/{gh_id}
 :raw_file: master/gm_grab-links.user.js
+:release_link: https://github.com/{gh_id}/releases/latest
+:release_image_link: https://img.shields.io/github/v/release/{gh_id}?include_prereleases&logo=github{img_style}
+:license_link: LICENSE
+:license_image_link: https://img.shields.io/github/license/{gh_id}?logo=github{img_style}
 :sonar_url: logo=sonarcloud&server=https%3A%2F%2Fsonarcloud.io
 
 
-= {gh_module} (powered by Greasemonkey)
+= {gh_module}
 
-link:https://github.com/{gh_id}/releases[image:https://img.shields.io/github/v/release/{gh_id}?include_prereleases&logo=github{img_style}[Latest Version]]
-link:LICENSE[image:https://img.shields.io/github/license/{gh_id}?logo=github{img_style}[Software License]]
+link:{release_link}[image:{release_image_link}[Latest Version]] link:{license_link}[image:{license_image_link}[Software License]]
 
 == Description
 
-Simple script to list all links in a page and grab them all or just one.
+A simple script to list all links of a page.
+You can grab them all or just one link.
 
 == Installation
 
-Do yo have installed a Greasemonkey- or Tampermonkey-Plugin?
-
-Now click on: link:{raw_url}/{raw_file}[install the script].
+. Do you already have installed a link:https://addons.mozilla.org/de/firefox/addon/greasemonkey/[Greasemonkey-] or a link:https://addons.mozilla.org/de/firefox/addon/tampermonkey/[Tampermonkey]-Plugin?
+. Now click on: link:{raw_url}/{raw_file}[install the script].
 
 == License
 
-This project is released under *link:LICENSE[Apache License 2.0]*.
+This project is released under *link:{license_link}[Apache License 2.0]*.
 
 == Author
 
-{author}
+{author_link} +
+~powered~ ~by~ ~link:../{gh_org}[{gh_org}]~
 
-''''
+
+
+'''
 ~{cright}~
