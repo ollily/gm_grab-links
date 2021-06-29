@@ -19,7 +19,7 @@
 // @compatible      firefox
 // @namespace       http://userscripts.org/users/ollily
 // @run-at          document-end
-// @version         2.02.001
+// @version         2.02.005
 // @grant           unsafeWindow
 // @grant           GM_addStyle
 // @grant           GM.addStyle
