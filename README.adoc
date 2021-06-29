@@ -1,3 +1,4 @@
+:hide-uri-scheme:
 include::common-cfg.adoc[]
 include::module-cfg.adoc[]
 include::readme-tpl.adoc[]
