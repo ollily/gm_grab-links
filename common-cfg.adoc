@@ -1,9 +1,0 @@
-:hide-uri-scheme:
-// common settings
-:img_style: logo=github&style=plastic
-:base_url: https://github.com
-:base_raw_url: https://raw.githubusercontent.com
-:base_shields_url: https://img.shields.io/github
-:base_sonar_url: https://sonarcloud.io
-// service links
-:back_link: link:README.adoc[image:https://img.shields.io/badge/%3C%3D%3D%20GO-Back-lightgrey[Go Back]]
