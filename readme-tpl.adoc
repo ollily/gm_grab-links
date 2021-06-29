@@ -1,0 +1,44 @@
+:hide-uri-scheme:
+// project settings
+:gh_user_link: link:{base_url}/{gh_user}
+:gh_org_link: link:{base_url}/{gh_org}
+:gh_module_link: link:{base_url}/{gh_user}/{gh_module}
+// author settings
+:author: {gh_user}
+:author_link: {gh_user_link}[{author}]
+:cright: (c) 2021 by {author}
+// link settings
+:raw_link: link:{base_raw_url}/{gh_id}
+:raw_file: master/gm_grab-links.user.js
+:release_link: link:{base_url}/{gh_id}/releases/latest
+:release_image_url: {base_shields_url}/v/release/{gh_id}?include_prereleases&{img_style}[Latest Version]
+:license_link: link:LICENSE
+:license_image_url: {base_shields_url}/license/{gh_id}?{img_style}[Software License]
+:sonar_qg_link: link:{base_sonar_url}/dashboard?id={gh_key}
+:sonar_qg_image_url: {base_sonar_url}/api/project_badges/quality_gate?project={gh_key}[Quality Gate]
+
+= {gh_module}
+
+{release_link}[image:{release_image_url}] {license_link}[image:{license_image_url}] {sonar_qg_link}[image:{sonar_qg_image_url}]
+
+== Description
+
+A simple script to list all links of a page.
+You can grab them all or just one link.
+
+== Installation
+
+. Do you already have installed a link:https://addons.mozilla.org/de/firefox/addon/greasemonkey/[Greasemonkey-] or a link:https://addons.mozilla.org/de/firefox/addon/tampermonkey/[Tampermonkey]-Plugin?
+. Now click on: {raw_link}/{raw_file}[install the script].
+
+== License
+
+This project is released under *{license_link}[Apache License 2.0]*.
+
+== Author
+
+{author_link} +
+~powered~ ~by~ ~{gh_org_link}[{gh_org}]~
+
+'''
+~{cright}~
