@@ -8,18 +8,18 @@
 // @author          ollily2907
 // @license         Apache License, Version 2.0
 // @license         https://www.apache.org/licenses/LICENSE-2.0.txt
-// @homepageURL     https://github.com/ollily/gm-scripting
-// @supportURL      https://github.com/ollily/gm-scripting
-// @downloadURL     https://raw.githubusercontent.com/ollily/gm-scripting/grab_links/grab_links.user.js
-// @installURL      https://raw.githubusercontent.com/ollily/gm-scripting/grab_links/grab_links.user.js
-// @updateURL       https://raw.githubusercontent.com/ollily/gm-scripting/grab_links/grab_links.user.js
-// @source          https://raw.githubusercontent.com/ollily/gm-scripting/grab_links/grab_links.user.js
-// @icon            https://raw.githubusercontent.com/ollily/gm-scripting/master/grab_links/resource/gl_logo.png
+// @icon            https://cdn.jsdelivr.net/gh/ollily/gm_grab-links@latest/resource/gl_logo.png
+// @homepageURL     https://github.com/ollily/gm_grab-links
+// @supportURL      https://github.com/ollily/gm_grab-links/issues
+// @installURL      https://greasyfork.org/en/scripts/428402-grab-links
+// @updateURL       https://greasyfork.org/en/scripts/428402-grab-links
+// @downloadURL     https://cdn.jsdelivr.net/gh/ollily/gm_grab-links@latest/gm_grab-links.user.js
+// @source          https://github.com/ollily/gm_grab-links
 // @compatible      chrome
 // @compatible      firefox
 // @namespace       http://userscripts.org/users/ollily
 // @run-at          document-end
-// @version         2.02.005
+// @version         2.02.006
 // @grant           unsafeWindow
 // @grant           GM_addStyle
 // @grant           GM.addStyle
