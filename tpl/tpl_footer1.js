@@ -5,10 +5,16 @@
  * Can be left empty.
  */
 function lgm_addKnownSites() {
-    gmAddSite("watch?", "(|.+?\.)youtube\..+?", ".*");
-    gmAddSite("watch", "(|.+?\.)myvideo\..+?", ".*");
     gmAddSite("video", "(|.+?\.)dailymotion\..+?", ".*");
+    gmAddSite("photos", "(|.+?\.)flickr\..+?", ".*");
+    gmAddSite("/p/", "(|.+?\.)instagram\..+?", ".*");
     gmAddSite("watch", "(|.+?\.)metacafe\..+?", ".*");
+    gmAddSite("video", "(|.+?\.)ok\.ru.+?", ".*");
+    gmAddSite("pin", "(|.+?\.)pinterest\..+?", ".*");
+    gmAddSite("video", "(|.+?\.)tiktok\..+?", ".*");
+    gmAddSite("post|image", "(|.+?\.)tumblr\..+?", ".*");
+    gmAddSite("post|image", "(|.+?\.)tumbral\..+?", ".*");
+    gmAddSite("watch?", "(|.+?\.)youtube\..+?", ".*");
     gmAddSite("10", "devzone\\..+?\\.(net|eu)", "/test/gmonkey/.*");
 }
 

@@ -5,12 +5,16 @@
 // @grant           GM.getResourceText
 // @include         http://gmonkey.*.*/test/*
 // @include         http://devzone.*.*/test/gm/*
-// @include         /http(|s)\://(|.+?\.)youtube\..+?/.*/
 // @include         /http(|s)\://(|.+?\.)dailymotion\..+?/.*/
-// @include         /http(|s)\://(|.+?\.)pinterest\..+?/.*/
 // @include         /http(|s)\://(|.+?\.)flickr\..+?/.*/
 // @include         /http(|s)\://(|.+?\.)instagram\..+?/.*/
+// @include         /http(|s)\://(|.+?\.)metacafe\..+?/.*/
+// @include         /http(|s)\://(|.+?\.)ok\.ru.+?/.*/
+// @include         /http(|s)\://(|.+?\.)pinterest\..+?/.*/
 // @include         /http(|s)\://(|.+?\.)tiktok\..+?/.*/
+// @include         /http(|s)\://(|.+?\.)tumblr\..+?/.*/
+// @include         /http(|s)\://(|.+?\.)tumbral\..+?/.*/
+// @include         /http(|s)\://(|.+?\.)youtube\..+?/.*/
 // ==/UserScript==
 
 /*
